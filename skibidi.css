@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+    box-sizing: border-box;
+}
+
+/* home css deel */
+
+.index-body {
+    background-color: #E9E9E0;
+    margin: 0.5em auto;
+    min-width: 5em;
+    max-height: 50vw;
+}
+
+.home-button {
+    border: 1em;
+    color: #264B03;
+    text-align: center;
+    display: flex;
+    font-size: 3.125em;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.afleveringen-button {
+    border: 1em;
+    color: #275AA7;
+    text-align: center;
+    display: flex;
+    font-size: 3.125em;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.over-ons-button {
+    border: 1em;
+    color: #F5A82B;
+    text-align: center;
+    display: flex;
+    font-size: 3.125em;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+nav ul a:active {
+    transform: translateY(4px)
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+    display:flex;
+    gap:8em;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul {
+    padding-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:8em;
+    margin:auto;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul img {
+    height: auto;
+    max-height: 12.5em;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw; 
+    padding-top: 0vw;
+}
+
+header h1 {
+    font-size: 9.375em;
+    font-weight: 900;
+    color: #264B03;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+header p {
+    font-size: 2.5em;
+    color: black;
+    line-height: 1.2;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.teaser-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DA7121;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    gap: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.text-teaser-video {
+    font-size: 4.6875em;
+    color: white;
+    justify-content: center;
+    text-decoration: underline; 
+}
+
+iframe {
+    border: none;
+    max-width: 100%;
+}
+
+.nieuwste-aflevering {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #264B03;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.nieuwste-aflevering h2 {
+    font-size: 4.6875em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline; 
+    max-width: 100%;
+}
+
+.content-nieuwste-aflevering {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section h3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5625em;
+    text-decoration: underline;
+    color: white;
+    justify-content: left;
+    padding: 0;
+}
+
+.aflevering-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 2em;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+section div p {
+    font-size: 1.25em;
+    max-width: 40em;
+    color: white;
+    padding: 0;
+}
+
+.playbar-content {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    justify-content: space-evenly;
+    justify-items: left;
+    padding: 0;
+    margin: 0;
+}
+
+.insturen-playlist {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    gap: 2.5em; 
+    text-align: center;
+}
+
+.insturen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5A82B;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+}
+
+.insturen-content {
+    display: flex;
+    font-size: 3.125em;
+    color: black;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.insturen-p {
+    color: black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.link-mail {
+    font-size: 1.5625em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1em;
+    background-color: #275AA7;
+    text-decoration: none;
+    gap: 2em;
+    border-radius: 0.625em;
+    transition: 300ms ease-in;
+}
+
+.link-mail:hover {
+    background-color: white;
+    color: #275AA7;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFA8CD;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+}
+
+.playlist-content {
+    font-size: 3.125em;
+    color: black;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.playlist-p {
+    color: black;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.link-playlist {
+    font-size: 1.5625em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1em;
+    background-color: #264B03;
+    text-decoration: none;
+    gap: 2em;
+    border-radius: 0.625em;
+    transition: 300ms ease-in; 
+}
+
+.link-playlist:hover {
+    background-color: white;
+    color: #264B03;
+}
+
+.autoShow {
+    animation: autoShowAnimation; 
+    animation-timeline: view(100% auto)
+}
+@keyframes autoShowAnimation {
+    from {
+        opacity:0;
+        transform: translateY(200px) scale(0.3);
+    } to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+footer h2 {
+    font-size: 3.125em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.footer-logo {
+    padding-bottom: 4em;
+}
+
+footer {
+    text-align: center;
+}
+
+/* afleveringen css deel */
+
+.afleveringen-body{
+    background-color: #E9E9E0;
+    margin: 0.5em auto;
+    min-width: 5em;
+    max-height: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2em;
+}
+
+.afleveringen-header{
+    padding-top: 0.3em;
+}
+
+.gap-tot-aflevering{
+    display: flex;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    flex-wrap: nowrap;
+}
+
+.aflevering-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #275AA7;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.aflevering-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5A82B;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.aflevering-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFA8CD;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.aflevering-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CBB2D8;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+    margin-bottom: 2em;
+}
+
+.aflevering-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DA7121;
+    padding-top: 2em;
+    padding-bottom: 3.5em;
+    border-radius: 1.5625em;
+}
+
+.afleveringen-header {
+    font-size: 9.375em;
+    font-weight: 900;
+    color: #275AA7;
+    margin-bottom: 0;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+/* over ons css deel*/
+
+.over-ons-body {
+    background-color: #E9E9E0;
+    margin: 0.5em auto;
+    min-width: 5em;
+    max-height: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-over-ons{
+    font-size: 2.5em;
+    color: #DA7121;
+    background-color: #275AA7;
+    max-width: 30em;
+    padding: 1em 1em 1em 1em;
+    border-radius: 1.5625em;
+    margin-top: 3em;
+    margin-bottom: 0.7em;
+    font-weight: 300;
+}
+
+.over-ons-main{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 2em;
+}
+
+.tom-profiel{
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFA8CD;
+    padding: 2em 1em 2em 1em;
+    border-radius: 1.5625em;
+    color: black;
+    font-size: 1.5625em;
+}
+
+.alec-profiel{
+    flex-direction: column;
+    justify-content: center;
+    background-color: #264B03;
+    padding: 2em 1em 2em 1em;
+    border-radius: 1.5625em;
+    color: white;
+    font-size: 1.5625em;
+}
